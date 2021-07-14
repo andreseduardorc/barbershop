@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/_reset.scss","../sass/layout/_header.scss","../sass/layout/_footer.scss","../sass/abstracts/_variables.scss"],"names":[],"mappings":"AAAA;AAEA;EACI;;;AAGJ;EACI;;;ACPJ;EACI;EACA;;;ACFJ;EACI,kBCSS","file":"style.css"}

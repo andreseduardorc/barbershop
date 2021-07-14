@@ -1,0 +1,19 @@
+/*reset*/
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-image: url(/assets/img/post-image.jpg);
+  width: 100;
+}
+
+footer {
+  background-color: #121619;
+}
+
+/*# sourceMappingURL=style.css.map */
