@@ -1,0 +1,10 @@
+.barra {
+    background-color: $eerie-black;
+}
+
+.barra a {
+    color: $white;
+    &.active {
+        color: $ruddy-pink;
+    }
+}

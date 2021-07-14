@@ -29,9 +29,6 @@ img {
 .header {
   color: #fff;
   height: 700px;
-  background-image: url(/assets/img/post-image.jpg);
-  background-repeat: none;
-  background-size: cover;
 }
 
 h1 {
@@ -40,12 +37,8 @@ h1 {
   font-style: 900;
 }
 
-.content__font {
-  padding: 20%;
-}
-
 footer {
   background-color: #121619;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.style.css.map */
