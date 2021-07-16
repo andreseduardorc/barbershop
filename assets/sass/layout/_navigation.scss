@@ -8,3 +8,22 @@
         color: $ruddy-pink;
     }
 }
+
+a {
+    text-decoration: none;
+    color: $ruddy-pink;
+}
+
+.paginador {
+    background-color: $platinum;
+    margin-top: 3rem;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.pagination a {
+    display: block ruby;
+    color: $raisin-black;
+}

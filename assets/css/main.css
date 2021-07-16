@@ -18,12 +18,12 @@ img {
 .content__date {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-style: italic;
 }
 
 .content__text {
   font-family: "Roboto", sans-serif;
   line-height: 2em;
+  font-size: x-large;
 }
 
 .span {
@@ -39,25 +39,6 @@ img {
 }
 .barra a.active {
   color: #d76c69;
-}
-
-a {
-  text-decoration: none;
-  color: #d76c69;
-}
-
-.paginador {
-  background-color: #e6e7e7;
-  margin-top: 3rem;
-}
-
-.pagination {
-  justify-content: center;
-}
-
-.pagination a {
-  display: block ruby;
-  color: #222323;
 }
 
 .header {
@@ -86,44 +67,12 @@ footer {
   display: flex;
 }
 
-.post-author__photo {
+.post-author__img {
   width: 45%;
-  padding-left: 3rem;
-}
-
-.post-author img {
-  width: 50%;
-  border-radius: 55%;
 }
 
 .post-author__parrafo {
-  width: 45%;
-  padding-top: 3rem;
-  padding-left: 2rem;
+  width: 50%;
 }
 
-.post-author__datos {
-  display: inline-block;
-  padding: 2rem 0 0 2rem;
-}
-
-.post-author__datos p {
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
-  font-style: italic;
-}
-
-.btn {
-  border-radius: 1.2rem;
-  font-size: 12px;
-}
-
-.button__right {
-  border-radius: 0 30px 30px 0 !important;
-}
-
-.button__left {
-  border-radius: 30px 0 0 30px !important;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

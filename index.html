@@ -88,28 +88,53 @@
             </p>
         </div>
 
-        <div>
+        <div class="my-5">
             <button type="button" class="btn btn-secondary border-round">Compartir</button>
             <button type="button" class="btn btn-secondary border-round">Comentar en twiter</button>
         </div>
     </article>
+
+
     <!-- autor del post -->
-    <div>
-        <div>
+    <article class="container post-author  ">
+        <div class="post-author__photo">
             <img src="./assets/img/naomi-thai.png" alt="">
+            <div class="post-author__datos">
+                <p>Naomi Thai </p>
+                <a href="#">@Naothai</a>
+                <br>
+                <a href="#">depelos.com</a>
+            </div>
+
         </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit efficitur diam eu lectus finibus bibendum. In egestas.</p>
+        <div class="post-author__parrafo d-none d-md-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel velit efficitur diam eu lectus finibus bibendum. In egestas.Etiam Lorem ipsum dolor sit amet, consectetur adipiscing </p>
         </div>
 
-    </div>
+    </article>
 
     <!-- paginador -->
 
-    <div>
+    <div class="paginador">
+        <div class="py-5">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link button__left" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active btn-secondary" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link button__right" href="#">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
 
+        </div>
     </div>
-
     <!-- footer -->
 
     <footer class="footer py-5 text-center">
