@@ -1,17 +1,15 @@
 .header {
     color: $white;
-    height: 700px;
+    min-height: 700px;
     background-image: url(/assets/img/post-image.jpg);
     background-repeat: none;
     background-size: cover;
-}
-
-h1 {
-    font-family: $playfair;
-    font-size: $xx-large;
-    font-style: italic;
-}
-
-.content__font {
-    padding: 20%
+    h1 {
+        font-family: $playfair;
+        font-size: $xx-large;
+        font-style: italic;
+    }
+    .content__font {
+        padding: 20%
+    }
 }
